@@ -370,7 +370,7 @@ export default function App() {
             </div>
 
             <Michael>
-              Atenção, a equipe de pesquisa e investigação responsável por este interrogatório somente fez o frontend do proojeto (a parte bonitinha e tals..) Então se possível, eu, Michael Jackson, agradeceria muito se ao fim da investigação você compartilhasse suas reações com a tal da programadora. Obrigado!
+              Atenção, a equipe de pesquisa e investigação responsável por este interrogatório somente fez o frontend do projeto (a parte bonitinha e tals..), portanto nenhuma resposta é armazenada ou compartilhada com a programadora. Então se possível, eu, Michael Jackson, agradeceria muito se ao fim da investigação você compartilhasse suas reações e decisões diretamente com a tal da programadora. Obrigado!
             </Michael>
 
             <Button onClick={() => setStep(4)}>
