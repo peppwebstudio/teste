@@ -374,7 +374,7 @@ export default function App() {
             </Michael>
 
             <Button onClick={() => setStep(4)}>
-              REVELAR A PRÓXIMA EVIDÊNCIA →
+              SEGUIR DEMOCRATICAMENTE A INVESTIGAÇÃO →
             </Button>
 
             <p className="disclaimer">
@@ -397,9 +397,8 @@ export default function App() {
             </h2>
 
             <Michael>
-              Antes de revelar o plano, precisamos concluir uma etapa
-              fundamental do processo democrático. A comissão do segundo
-              encontro precisa votar.
+              Antes de concluir a investigação, precisamos concluir uma etapa
+              fundamental do processo democrático. Todos os envolvidos no caso precisam votar.
             </Michael>
 
             <div className="ballot">
@@ -414,7 +413,7 @@ export default function App() {
               </div>
 
               <p className="political-punchline">
-                PROJETO APROVADO POR 13 VOTOS A ZERO.
+                PROJETO APROVADO NO SENADO DE MEDICINA E PSICOLOGIA POR 13 VOTOS A ZERO.
               </p>
 
               <Button onClick={() => setStep(5)}>
@@ -445,9 +444,9 @@ export default function App() {
             </h2>
 
             <Michael>
-              Anna Clara, a suspeita deseja levar você ao cinema na próxima
-              quarta-feira, dia 21 de outubro. O filme será de terror, seu
-              gênero favorito... Mesmo diante do risco da suposta adulta estudante de medicina perder toda sua dignidade vendo um filme de terror.
+              Anna Clara, a outra suspeita do caso deseja levar você ao cinema na próxima
+              quarta-feira, dia 21 de outubro, à tarde. O filme será de terror, seu
+              gênero favorito... Mesmo diante do risco da suspeita mais velha perder, vergonhosamente, toda sua dignidade vendo um filme de terror.
             </Michael>
 
             <div className="courage-card">
@@ -464,7 +463,7 @@ export default function App() {
 
               <p>
                 Estimativa preliminar. Pode cair para valores negativos
-                durante o decorrer do filme. E aumentar para valores positivos mediante auxílio de carinho de uma psicóloga aí... 
+                durante o decorrer do filme ou aumentar para valores positivos mediante auxílio do carinho de uma psicóloga aí... 
               </p>
             </div>
 
@@ -519,7 +518,7 @@ Naturalmente, isso dependerá da aprovação da outra parte. Somos profissionais
             </h2>
 
             <Michael>
-              Excelente decisão, investigada. Antes de encerrar o caso,
+              Excelente decisão, senhorita. Antes de encerrar o caso,
               o departamento exige a assinatura de um documento oficial.
               Não se preocupe: nosso departamento jurídico é composto por
               uma estudante de Medicina e um Michael Jackson imaginário.
@@ -626,8 +625,8 @@ Naturalmente, isso dependerá da aprovação da outra parte. Somos profissionais
                 </h1>
 
                 <Michael>
-                  A investigação foi um sucesso! O contrato foi assinado.
-                  A ciência avançou. A democracia venceu. Agora, boa sorte pra Mylle e bom filme, detetive Anna!
+                  A investigação foi um sucesso! O contrato foi assinado!
+                  A ciência avançou1 A democracia venceu, faz o L! Agora, boa sorte pra Mylle e bom filme, senhorita Anna Clara!
                   
                 </Michael>
 
