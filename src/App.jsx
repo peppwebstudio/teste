@@ -7,14 +7,14 @@ const questions = [
     question: 'Hipoteticamente se uma estudante de medicina te convidasse para um segundo encontro você...',
     options: [
       'Faria o L e aceitaria o convite.',
-      'Perguntaria a Freud porque ele explica tudo!',
-      'Aceitaria o convite diante de evidências científicas e de um contrato assinado.',
-      'Me assumiria bolsonarista e negaria de cara.',
+      'Perguntaria a Freud, porque ele explica tudo!',
+      'Hipoteticamente, claro, aceitaria mediante assinatura de contrato.',
+      'Me assumiria bolsonarista e negaria.',
     ],
     reactions: [
       'Então, hipoteticamente, claro, seu avô Lula ficaria orgulhoso de você!',
       'Segundo "Cinco Lições de Psicanálise" (1910) de Sigmund Freud: "aceitais o convite porque eu expliquei que sim!".',
-      'Excelente! A ciência exige rigor.',
+      'Excelente! Escuta aí o barulho dos fogos de artifício no Curado 2, hipoteticamente, claro.',
       'Vovô Lula não ficaria muito feliz... mas mylle entenderia!',
     ],
   }
@@ -30,7 +30,7 @@ const evidence = [
   },
   {
     number: '002',
-    title: 'Contato',
+    title: 'O Contato',
     description:
       'Foi identificado um breve contato labial ao final do encontro. O departamento solicita mais informações.',
     stamp: 'MATERIAL DE INTERESSE',
@@ -250,8 +250,8 @@ export default function App() {
             </div>
 
             <Michael>
-              Três evidências, mas ainda sem nenhuma explicação científica satisfatória.
-              Por isso convidei você como especialista do 4° período de Psicologia para me ajudar a analisar o caso!
+              Três evidências, mas ainda sem nenhuma conclusão ou evidências concretas.
+              Por tal motivo, a sehorita foi intimada a prestar depoimento para um melhor esclarescimento do caso.
               <br />
               <br />
             
@@ -317,7 +317,7 @@ export default function App() {
 
                   <Button onClick={nextQuestion}>
                     {questionIndex < 2
-                      ? 'PRÓXIMA PERGUNTA →'
+                      ? 'SEGUIR INVESTIGAÇÃO →'
                       : 'REVELAR RESULTADO →'}
                   </Button>
                 </div>
@@ -352,7 +352,7 @@ export default function App() {
               <h3>Hipótese principal</h3>
 
               <p>
-                Há indícios de que um segundo encontro seja uma excelente ideia.
+                Há indícios fortíssimos de que um segundo encontro seja uma excelente ideia.
               </p>
 
               <div className="report-divider" />
@@ -370,9 +370,7 @@ export default function App() {
             </div>
 
             <Michael>
-              A ciência ainda não consegue explicar tudo. Mas encontrei uma
-              maneira de você continuar a investigação. Desta vez, não será necessário
-              um laboratório! Vamos precisar de um cinema!
+              Atenção, a equipe de pesquisa e investigação responsável por este interrogatório somente fez o frontend do proojeto (a parte bonitinha e tals..) Então se possível, eu, Michael Jackson, agradeceria muito se ao fim da investigação você compartilhasse suas reações com a tal da programadora. Obrigado!
             </Michael>
 
             <Button onClick={() => setStep(4)}>
