@@ -230,7 +230,7 @@ export default function App() {
             <Michael>
               Anna Clara, meu nome é Michael Jackson. Talvez você me conheça
               da música, do moonwalk ou de Thriller. Hoje, porém, estou
-              investigando um caso muito mais sério.
+              investigando um caso muito mais sério. Trouxe aqui as 3 maiores pistas que encontramos para desvendar esse mistério e descobrir se a suspeita topa um segundo encontro!
             </Michael>
 
             <div className="evidence-list">
